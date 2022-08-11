@@ -5,12 +5,12 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.carlosdev.patterns.model.Cliente;
-import com.carlosdev.patterns.model.Endereco;
-import com.carlosdev.patterns.repository.ClienteRepository;
-import com.carlosdev.patterns.repository.EnderecoRepository;
-import com.carlosdev.patterns.service.ClienteService;
-import com.carlosdev.patterns.service.ViaCepClientService;
+import com.devcarlos.design.patterns.entities.Cliente;
+import com.devcarlos.design.patterns.entities.Endereco;
+import com.devcarlos.design.patterns.repository.ClienteRepository;
+import com.devcarlos.design.patterns.repository.EnderecoRepository;
+import com.devcarlos.design.patterns.service.ClienteService;
+import com.devcarlos.design.patterns.service.ViaCepClientService;
 
 
 @Service
